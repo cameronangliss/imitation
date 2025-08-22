@@ -210,7 +210,6 @@ setup(
         "optuna>=3.0.1",
         "datasets>=2.8.0",
     ],
-    tests_require=TESTS_REQUIRE,
     extras_require={
         # recommended packages for development
         "dev": [
