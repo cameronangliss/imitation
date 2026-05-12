@@ -195,7 +195,7 @@ setup(
     #   encode only known incompatibilities here. This prevents nasty dependency issues
     #   for our users.
     install_requires=[
-        "gymnasium[classic-control]",
+        "gymnasium",
         "matplotlib",
         "numpy>=1.15",
         "torch>=1.4.0",
@@ -227,7 +227,7 @@ setup(
         "docs": DOCS_REQUIRE,
         "parallel": PARALLEL_REQUIRE,
         "mujoco": [
-            "gymnasium[classic-control,mujoco]",
+            "gymnasium[mujoco]",
         ],
         "atari": ATARI_REQUIRE,
     },
